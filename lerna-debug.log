@@ -1,15 +1,45 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '8.1.2',
-0 silly argv   '$0': 'C:\\Users\\A0vy\\AppData\\Roaming\\npm\\node_modules\\lerna\\dist\\cli.js',
-0 silly argv   name: 'angular-workspace'
-0 silly argv }
-1 notice cli v8.1.2
-2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
-3 verbose rootPath C:\Git\uxtest
-4 error Error: Command failed with exit code 1: git config --get user.email
-4 error     at makeError (C:\Git\uxtest\node_modules\execa\lib\error.js:59:11)
-4 error     at module.exports.sync (C:\Git\uxtest\node_modules\execa\index.js:186:17)
-4 error     at execSync (C:\Git\uxtest\node_modules\@lerna\create\dist\command.js:74:31)
-4 error     at CreateCommand.gitConfig (C:\Git\uxtest\node_modules\@lerna\create\dist\command.js:4084:16)
-4 error     at CreateCommand.initialize (C:\Git\uxtest\node_modules\@lerna\create\dist\command.js:4018:51)
+49 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+49 error npm ERR! code ERESOLVE
+49 error npm ERR! ERESOLVE could not resolve
+49 error npm ERR!
+49 error npm ERR! While resolving: @a0vy/angular@0.2.3
+49 error npm ERR! Found: @a0vy/uxcore@0.2.2
+49 error npm ERR! node_modules/@a0vy/uxcore
+49 error npm ERR!   workspace packages\stencil-package from the root project
+49 error npm ERR!   @a0vy/uxcore@"^0.2.3" from angular-workspace@0.2.3
+49 error npm ERR!   packages/angular-workspace
+49 error npm ERR!     angular-workspace@0.0.0
+49 error npm ERR!     node_modules/angular-workspace
+49 error npm ERR!       workspace packages\angular-workspace from the root project
+49 error npm ERR!
+49 error npm ERR! Could not resolve dependency:
+49 error npm ERR! peer @a0vy/uxcore@"0.2.2" from @a0vy/angular@0.2.3
+49 error npm ERR! packages/angular-lib
+49 error npm ERR!   @a0vy/angular@0.2.2
+49 error npm ERR!   node_modules/@a0vy/angular
+49 error npm ERR!     workspace packages\angular-lib from the root project
+49 error npm ERR!     1 more (angular-workspace)
+49 error npm ERR!
+49 error npm ERR! Conflicting peer dependency: @a0vy/uxcore@0.2.2
+49 error npm ERR! node_modules/@a0vy/uxcore
+49 error npm ERR!   peer @a0vy/uxcore@"0.2.2" from @a0vy/angular@0.2.3
+49 error npm ERR!   packages/angular-lib
+49 error npm ERR!     @a0vy/angular@0.2.2
+49 error npm ERR!     node_modules/@a0vy/angular
+49 error npm ERR!       workspace packages\angular-lib from the root project
+49 error npm ERR!       1 more (angular-workspace)
+49 error npm ERR!
+49 error npm ERR! Fix the upstream dependency conflict, or retry
+49 error npm ERR! this command with --force or --legacy-peer-deps
+49 error npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+49 error npm ERR!
+49 error npm ERR!
+49 error npm ERR! For a full report see:
+49 error npm ERR! C:\Users\A0vy\AppData\Local\npm-cache\_logs\2024-02-28T19_49_01_196Z-eresolve-report.txt
+49 error
+49 error npm ERR! A complete log of this run can be found in: C:\Users\A0vy\AppData\Local\npm-cache\_logs\2024-02-28T19_49_01_196Z-debug-0.log
+49 error     at makeError (C:\Git\uxtest\node_modules\execa\lib\error.js:59:11)
+49 error     at handlePromise (C:\Git\uxtest\node_modules\execa\index.js:114:26)
+49 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+49 error     at async VersionCommand.updatePackageVersions (C:\Git\uxtest\node_modules\lerna\dist\index.js:8469:13)
+49 error     at async Promise.all (index 0)

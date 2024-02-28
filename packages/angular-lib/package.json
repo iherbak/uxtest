@@ -1,6 +1,6 @@
 {
   "name": "@a0vy/angular",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "> TODO: description",
   "author": "istvan.herbak@gmail.com <istvan.herbak@gmail.com>",
   "homepage": "https://github.com/iherbak/uxtest#readme",
@@ -23,6 +23,6 @@
     "ng-packagr": "^17.2.0"
   },
   "peerDependencies": {
-    "@a0vy/uxcore": "0.2.2"
+    "@a0vy/uxcore": "*"
   }
 }
