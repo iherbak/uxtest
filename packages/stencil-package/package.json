@@ -1,5 +1,5 @@
 {
-  "name": "stencil-package",
+  "name": "@a0vy/uxcore",
   "version": "0.1.0",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
@@ -9,7 +9,7 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/stencil-package/stencil-package.esm.js",
+  "unpkg": "dist/a0vy/a0vy.esm.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ionic-team/stencil-component-starter.git"
@@ -37,5 +37,5 @@
     "puppeteer": "^21.9.0"
   },
   "license": "MIT",
-  "gitHead": "4ad5c3fe9bed60fc0852909234796720ca0391bf"
+  "gitHead": "5bb084f7d788ae6ab63a22a5fe4d2e2aa78d3c59"
 }
