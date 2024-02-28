@@ -23,6 +23,12 @@ export const config: Config = {
       outputType: 'component',
       directivesProxyFile: '../angular-workspace/projects/components/src/lib/stencil-generated/components.ts',
       directivesArrayFile: '../angular-workspace/projects/components/src/lib/stencil-generated/index.ts',
+    }),
+    angularOutputTarget({
+      componentCorePackage: '@a0vy/uxcore',
+      outputType: 'component',
+      directivesProxyFile: '../angular-lib/lib/stencil-generated/components.ts',
+      directivesArrayFile: '../angular-lib/lib/stencil-generated/index.ts',
     })
   ],
   testing: {

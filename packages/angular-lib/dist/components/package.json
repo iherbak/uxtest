@@ -1,0 +1,42 @@
+{
+  "name": "angular-lib",
+  "version": "0.2.2",
+  "description": "> TODO: description",
+  "author": "istvan.herbak@gmail.com <istvan.herbak@gmail.com>",
+  "homepage": "https://github.com/iherbak/uxtest#readme",
+  "license": "ISC",
+  "main": "lib/angular-lib.js",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iherbak/uxtest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iherbak/uxtest/issues"
+  },
+  "module": "fesm2022/angular-lib.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/angular-lib.mjs",
+      "esm": "./esm2022/angular-lib.mjs",
+      "default": "./fesm2022/angular-lib.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}
