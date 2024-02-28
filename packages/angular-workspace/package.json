@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build components && ng build angular-test-app",
+    "build": "ng build angular-test-app",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -20,7 +20,12 @@
     "@angular/router": "^17.2.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.3"
+    "zone.js": "~0.14.3",
+    "@a0vy/uxcore": "*",
+    "@a0vy/angular": "*"
+  },
+  "peerDependencies": {
+    "@a0vy/angular": "*"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.2.1",

@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of components
+ */
+export * from './lib/components.module';
+export { DIRECTIVES } from './lib/stencil-generated';
+export * from './lib/stencil-generated/components';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLHlCQUF5QixDQUFDO0FBQ3hDLE9BQU8sRUFBRSxVQUFVLEVBQUUsTUFBTSx5QkFBeUIsQ0FBQztBQUNyRCxjQUFjLG9DQUFvQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcclxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIGNvbXBvbmVudHNcclxuICovXHJcblxyXG5leHBvcnQgKiBmcm9tICcuL2xpYi9jb21wb25lbnRzLm1vZHVsZSc7XHJcbmV4cG9ydCB7IERJUkVDVElWRVMgfSBmcm9tICcuL2xpYi9zdGVuY2lsLWdlbmVyYXRlZCc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL3N0ZW5jaWwtZ2VuZXJhdGVkL2NvbXBvbmVudHMnOyJdfQ==

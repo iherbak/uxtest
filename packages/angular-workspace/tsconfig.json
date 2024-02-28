@@ -4,6 +4,7 @@
   "compilerOptions": {
     "paths": {
       "components": [
+        "./dist/components",
         "./dist/components"
       ]
     },

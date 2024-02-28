@@ -1,6 +1,6 @@
 import { APP_INITIALIZER, NgModule } from "@angular/core";
 import { defineCustomElements } from "@a0vy/uxcore/loader";
-import { DIRECTIVES } from "./lib/stencil-generated";
+import { DIRECTIVES } from "./stencil-generated";
 @NgModule({
     declarations: [...DIRECTIVES],
     exports: [...DIRECTIVES],

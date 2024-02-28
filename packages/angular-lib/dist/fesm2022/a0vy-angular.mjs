@@ -132,4 +132,4 @@ class ComponentsModule {
  */
 
 export { ComponentsModule, DIRECTIVES, MyComponent };
-//# sourceMappingURL=angular-lib.mjs.map
+//# sourceMappingURL=a0vy-angular.mjs.map
