@@ -10,9 +10,10 @@
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/a0vy/a0vy.esm.js",
+  "preview": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/iherbak/uxtest.git"
   },
   "files": [
     "dist/",
@@ -37,5 +38,5 @@
     "puppeteer": "^21.9.0"
   },
   "license": "MIT",
-  "gitHead": "14e0aff46cb3d99d70e42499dd95a2b49e4a7af8"
+  "gitHead": "dac1994f1f6e08ffdfda51791f6043a350be0451"
 }
